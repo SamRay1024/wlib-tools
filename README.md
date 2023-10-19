@@ -8,5 +8,5 @@ Classes PHP outils.
 composer require wlib/tools
 ```
 
-// Tests unitaires pas encore disponibles
-// Documentation manquante (consultez les classes pour en savoir plus)
+- Tests unitaires pas encore disponibles
+- Documentation manquante (consultez les classes pour en savoir plus)
