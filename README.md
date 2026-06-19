@@ -4,7 +4,6 @@
 
 Ce package propose une série de classes utilitaires conçues pour simplifier et optimiser votre développement PHP. Que vous ayez besoin de gérer des structures de données hiérarchiques, d'implémenter des patterns de conception avancés ou de créer un système d'extensions flexible, **wlib/tools** vous offre des solutions éprouvées et performantes.
 
----
 
 ## 📦 Installation
 
@@ -14,7 +13,6 @@ composer require wlib/tools
 
 **Requirements** : PHP 7.1+ | [wlib/utils](https://github.com/wlib/utils) ^1.1
 
----
 
 ## 🗂️ Contenu du package
 
@@ -26,11 +24,8 @@ composer require wlib/tools
 | [`TreeSingleton`](#-treesingleton) | Tree en version Singleton | ≥ 7.1 | Arbre global partagé |
 | [`TreeConverter`](#-treeconverter) | Convertisseur Tree ↔ JSON | ≥ 7.1 | Persistance des arbres |
 
----
 
 ## 📚 Documentation complète
-
----
 
 ### 🔹 Singleton
 
@@ -741,7 +736,6 @@ $cache->loadFromFile('/tmp/app_cache.json');
 - **Strategy** : Pour implémenter différents algorithmes de parcours
 - **Composite** : Tree implémente naturellement ce pattern
 
----
 
 ## ✨ Conclusion
 
