@@ -5,7 +5,7 @@
 Ce package propose une série de classes utilitaires conçues pour simplifier et optimiser votre développement PHP. Que vous ayez besoin de gérer des structures de données hiérarchiques, d'implémenter des patterns de conception avancés ou de créer un système d'extensions flexible, **wlib/tools** vous offre des solutions éprouvées et performantes.
 
 
-## 📦 Installation
+## 🪛 Installation
 
 ```bash
 composer require wlib/tools
@@ -25,7 +25,7 @@ composer require wlib/tools
 | [`TreeConverter`](#-treeconverter) | Convertisseur Tree ↔ JSON | ≥ 7.1 | Persistance des arbres |
 
 
-## 📚 Documentation complète
+## 📚 Documentation
 
 ### 🔹 Singleton
 
