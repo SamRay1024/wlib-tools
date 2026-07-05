@@ -11,7 +11,7 @@ Ce package propose une série de classes utilitaires conçues pour simplifier et
 composer require wlib/tools
 ```
 
-**Requirements** : PHP 7.1+ | [wlib/utils](https://github.com/wlib/utils) ^1.1
+**Prérequis** : PHP 7.3 | [wlib/utils](https://github.com/wlib/utils) ^1.1
 
 
 ## 🗂️ Contenu du package

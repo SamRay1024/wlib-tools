@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "wlib/utils": "^1.1"
     },
     "require-dev": {
