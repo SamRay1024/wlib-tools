@@ -91,7 +91,7 @@ class TreeSingleton extends Singleton
 	 *
 	 * @return array
 	 */
-	public function __toArray() {
+	public function toArray() {
 	
 		$aTree = array();
 	
@@ -108,7 +108,7 @@ class TreeSingleton extends Singleton
 					$aTree[$sNode]['__data'] = $mNode->_mData;
 			
 				// Fusion des noeuds enfants (la récursivité démarre ici)
-				$aTree[$sNode] = array_merge($aTree[$sNode], $mNode->__toArray());
+				$aTree[$sNode] = array_merge($aTree[$sNode], $mNode->toArray());
 			}
 			
 			// Sinon, stockage simple de la donnée du noeud

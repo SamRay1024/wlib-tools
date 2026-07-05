@@ -260,10 +260,10 @@ if (isset($tree->users->admins)) {
 
 ```php
 // Conversion en tableau
-$array = $tree->__toArray();
+$array = $tree->toArray();
 
 // Conversion en JSON (via TreeConverter)
-$json = json_encode($tree->__toArray(), JSON_PRETTY_PRINT);
+$json = json_encode($tree->toArray(), JSON_PRETTY_PRINT);
 ```
 
 #### **Gestion des enfants**
@@ -618,7 +618,7 @@ $profile = CacheTree::get('user.123.profile');
 | `loadFromFile($file, $format = 'json')` | Charge depuis un fichier | `bool|null` |
 | `loadFromString($content, $format = 'json')` | Charge depuis une chaîne | `bool` |
 | `saveToFile($file, $format = 'json')` | Sauvegarde dans un fichier | `bool|null` |
-| `__toArray()` | Convertit en tableau | `array` |
+| `toArray()` | Convertit en tableau | `array` |
 | `__toString()` | Convertit en chaîne (sérialisée) | `string` |
 
 #### TreeSingleton

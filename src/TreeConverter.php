@@ -126,7 +126,7 @@ class TreeConverter
 	 */
 	static private function _exportToJson(Tree &$oTree): string|false
 	{
-		$json = json_encode($oTree->__toArray());
+		$json = json_encode($oTree->toArray());
 		
 		// Si erreur
 		if (  $json == 'null')

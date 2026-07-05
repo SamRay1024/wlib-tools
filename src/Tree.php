@@ -90,7 +90,7 @@ class Tree
 	 *
 	 * @return array
 	 */
-	public function __toArray()
+	public function toArray()
 	{
 		$aTree = array();
 
@@ -103,7 +103,7 @@ class Tree
 				if (!is_null($mNode->mData))
 					$aTree[$sNode]['__data'] = $mNode->mData;
 
-				$aTree[$sNode] = array_merge($aTree[$sNode], $mNode->__toArray());
+				$aTree[$sNode] = array_merge($aTree[$sNode], $mNode->toArray());
 			}
 
 			else $aTree[$sNode] = $mNode->mData;
