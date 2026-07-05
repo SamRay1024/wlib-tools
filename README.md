@@ -4,6 +4,7 @@
 
 Ce package propose une série de classes utilitaires conçues pour simplifier et optimiser votre développement PHP. Que vous ayez besoin de gérer des structures de données hiérarchiques, d'implémenter des patterns de conception avancés ou de créer un système d'extensions flexible, **wlib/tools** vous offre des solutions éprouvées et performantes.
 
+> 🚀 **Découvrez aussi [wlib/skeleton](https://github.com/SamRay1024/wlib-skeleton)** qui vous propose une structure de départ clé en main pour démarrer votre prochain projet.
 
 ## 🪛 Installation
 
